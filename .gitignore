@@ -1,0 +1,42 @@
+# Environment Files
+.env
+*.env
+.env.*
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Vector Store and Temporary Files
+vector_store/
+*.faiss
+*.pkl
+
+# Logs and Databases
+*.log
+*.sqlite3
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
